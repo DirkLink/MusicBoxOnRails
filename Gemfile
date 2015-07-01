@@ -16,7 +16,7 @@ gem 'omniauth'
 gem 'omniauth-spotify'
 
 group :development, :test do
-  gem 'spring'
+  # gem 'spring'
 end
 
 gem 'rollbar'
