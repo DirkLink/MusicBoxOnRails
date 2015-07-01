@@ -19,7 +19,7 @@ group :development, :test do
   gem 'spring'
 end
 
-
+gem 'rollbar'
 gem 'bootstrap_form'
 gem 'devise'
 gem 'figaro'
@@ -42,5 +42,5 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'puma'
-  gem 'rollbar'
+
 end
